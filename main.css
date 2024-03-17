@@ -1,0 +1,72 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 9;
+    display: flex;
+    opacity: .3;
+    height: 100vh;
+  }
+  .d_none{
+    display: none;
+  }
+ 
+  .dn_none{
+    display: flex;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 9;
+    display: flex;
+    opacity: .3;
+    align-items: center;
+    
+  }
+  .infox{
+    margin-top:2px ;
+    width:200px ;
+    height:500px;
+    background-color: rgb(3, 99, 67);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: auto;
+  
+      animation-name:move;
+      animation-duration:1s;
+      animation-direction:normal;
+      animation-delay: 0s;
+      border:3px;
+      border-color: black;
+ 
+
+   
+  } 
+
+
+  @keyframes move{
+    from{
+      width:0px;
+    }
+    to{
+    width:200px;
+    }
+    }
+      .buttonX{
+        border:4px;
+        border-color:black;
+        color:black;
+        border-style: double;
+        background-color: rgb(170, 224, 206);
+        padding:20px;
+        font-size: medium;
+        font-weight: 600;
+        cursor: grab;
+        
+      }
